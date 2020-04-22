@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9e2e2b802d.js" crossorigin="anonymous"></script>
+
+    <title>Covid-19 Data Update</title>
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="title text-center">Latest Update of Covid-19 Pandemi</h1>
+      <hr class="">
+      <section id="load">
+      </section>
+        <section class="main-content">
+          <!-- GRAND TOTAL -->
+          <div class="row grand-total"></div>
+          <!-- DETAILS by Country -->
+          <h1 class="title mt-4">World-Wide Details</h1>
+          <p class="note"><i class="fas fa-exclamation-circle"></i> Click the Table Header for Sorting Data</p>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col" class="table-header" data-table='Country' data-sort='desc'>Country <i class="fas fa-sort"></i></th>
+                <th scope="col" class="table-header" data-table='TotalConfirmed' data-sort='desc'>Total Confirmed <i class="fas fa-sort"></i></th>
+                <th scope="col" class="table-header" data-table='NewConfirmed' data-sort='desc'>New Confirmed <i class="fas fa-sort"></i></th>
+                <th scope="col" class="table-header" data-table='TotalDeaths' data-sort='desc'>Total Deaths <i class="fas fa-sort"></i></th>
+                <th scope="col" class="table-header" data-table='NewDeaths' data-sort='desc'>New Deaths <i class="fas fa-sort"></i></th>
+                <th scope="col" class="table-header" data-table='TotalRecovered' data-sort='desc'>Total Recovered <i class="fas fa-sort"></i></th>
+                <th scope="col" class="table-header" data-table='NewRecovered' data-sort='desc'>New Recovered <i class="fas fa-sort"></i></th>
+              </tr>
+            </thead>
+            <tbody class="table-results"></tbody>
+          </table>
+        </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

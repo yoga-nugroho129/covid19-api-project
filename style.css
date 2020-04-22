@@ -1,0 +1,56 @@
+* {
+  font-family: Ubuntu;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.total-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(121, 121, 121);
+}
+
+.total-cases {
+  position: relative;
+  background-color: rgba(255, 147, 6, 0.3);
+}
+
+.total-recovered {
+  position: relative;
+  background-color: rgba(97, 255, 6, 0.3);
+}
+
+.total-deaths {
+  position: relative;
+  background-color: rgba(255, 6, 6, 0.3);
+}
+
+.btn {
+  font-size: 10px;
+}
+
+th:hover {
+  cursor: pointer;
+  background-color: rgba(233, 150, 122, 0.3);
+}
+
+#load {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: url('https://i.ya-webdesign.com/images/loading-png-gif.gif')
+    no-repeat center center rgb(255, 255, 255);
+  background-size: 5rem;
+}
+
+.note {
+  background-color: rgba(87, 231, 50, 0.2);
+  color: rgb(72, 128, 26);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.note i {
+  color: red;
+}
